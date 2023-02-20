@@ -41,7 +41,7 @@ https://templatemo.com/tm-557-grad-school
     <a href="#menu" class="menu-link"><i class="fa fa-bars" style="color: rgba(22,34,57,0.95);"></i></a>
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
-        <li><a href="#section1">Accueil</a></li>
+        <li><a href="index.html">Accueil</a></li>
         <li class="has-submenu"><a href="#section4">Programmes</a>
           <ul class="sub-menu">
             <li><a href="#section2">Oral English</a></li>
@@ -50,9 +50,9 @@ https://templatemo.com/tm-557-grad-school
             <li><a href="https://templatemo.com/about" rel="sponsored" class="external">External URL</a></li> -->
           </ul>
         </li>
-        <li><a href="#section5">A propos</a></li>
+        <li><a href="about.html">A propos</a></li>
         <!-- <li><a href="#section5">Video</a></li> -->
-        <li><a href="#section6">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <!-- <li><a href="https://templatemo.com" class="external">External</a></li> -->
       </ul>
     </nav>
@@ -414,78 +414,9 @@ https://templatemo.com/tm-557-grad-school
   </section>
   
 
-  <section class="section video" data-section="section5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <div class="left-content">
-            <span>A propos de nous</span>
-            <h4>Présentation de notre<em> Factory</em> en vidéo.</h4>
-            <p><div style="color: #d1123e; display:inline">Factory English Training</div> est un centre de formation moderne et bien équipé basé à Port-Gentil qui offre une expérience d'apprentissage stimulante et interactive, avec des cours personnalisés pour répondre aux besoins individuels de chaque apprenant. 
-            <br><br>Rejoignez notre communauté d'apprenants enthousiastes et commencez votre voyage d'apprentissage de l'anglais dès aujourd'hui !</p>
-            <div class="main-button"><a rel="nofollow" href="#" target="_parent">Lien externe</a></div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <article class="video-item">
-            <div class="video-caption">
-              <h4>Présentation de FET</h4>
-            </div>
-            <figure>
-              <a href="#" class="play"><img src="assets/images/logofactory.png"></a>
-            </figure>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="section contact" data-section="section6">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Contactez-nous</h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-        
-        <!-- Do you need a working HTML contact-form script?
-                	
-                    Please visit https://templatemo.com/contact page -->
-                    
-          <form id="contact" action="" method="post">
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Nom" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Adresse email" required="">
-                  </fieldset>
-                </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message..." required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="button">Envoyer</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6518.5280559928515!2d8.770289008474801!3d-0.7080691486592834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sderri%C3%A8re%20le%20lyc%C3%A9e%20%C3%A0%20proximit%C3%A9%20de%20Port-Gentil!5e0!3m2!1sfr!2sga!4v1676815047574!5m2!1sfr!2sga" width="100%" height="423px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
+
 
   <footer>
     <div class="container">
@@ -548,14 +479,14 @@ https://templatemo.com/tm-557-grad-school
           });
         };
 
-        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
-          if($(e.target).hasClass('external')) {
-            return;
-          }
-          e.preventDefault();
-          $('#menu').removeClass('active');
-          showSection($(this).attr('href'), true);
-        });
+        // $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+        //   if($(e.target).hasClass('external')) {
+        //     return;
+        //   }
+        //   e.preventDefault();
+        //   $('#menu').removeClass('active');
+        //   showSection($(this).attr('href'), true);
+        // });
 
         $(window).scroll(function () {
           checkSection();
