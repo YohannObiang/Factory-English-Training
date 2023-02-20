@@ -16,12 +16,12 @@ body {
 /* Basic */
 
 a {
-	color: #3CF;
+	color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover {
-	color: #FC3;
+	color: #d1123e;
     text-decoration: none;
 }
 
@@ -802,7 +802,13 @@ section.courses {
     padding-bottom: 100px;
     padding: 0px 30px 100px 30px;
 }
-
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 section.courses .item img {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
