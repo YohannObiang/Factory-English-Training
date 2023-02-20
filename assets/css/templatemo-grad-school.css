@@ -809,7 +809,7 @@ section.courses .item img {
 }
 
 section.courses .item .down-content {
-    padding: 30px;
+    padding: 8px;
     background-color: #fff;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -822,7 +822,7 @@ section.courses .item .down-content h4 {
     letter-spacing: 0.5px;
     font-weight: 700;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 section.courses .item .down-content p {
